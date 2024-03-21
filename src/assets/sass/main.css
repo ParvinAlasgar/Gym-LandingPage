@@ -193,4 +193,13 @@ main #course .wrapper:hover img {
 }
 main #course .wrapper h6:nth-child(2) {
   color: #f6214b;
+}
+main #revolutions h4 {
+  color: #f6214b;
+}
+main #revolutions img {
+  transition: transform 0.5s;
+}
+main #revolutions img:hover {
+  transform: scale(1.3);
 }/*# sourceMappingURL=main.css.map */

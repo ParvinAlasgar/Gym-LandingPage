@@ -120,4 +120,16 @@ main {
       }
     }
   }
+  // Revolutions
+  #revolutions {
+    h4 {
+      color: $color_first;
+    }
+    img {
+      transition: transform 0.5s;
+      &:hover {
+        transform: scale(1.3);
+      }
+    }
+  }
 }
