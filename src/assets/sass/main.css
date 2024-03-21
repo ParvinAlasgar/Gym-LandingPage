@@ -1,0 +1,51 @@
+html {
+  font-size: 1rem !important;
+}
+
+#header {
+  left: 0;
+  z-index: 10 !important;
+}
+#header .top i {
+  background-color: #f6214b;
+}
+#header .menu li a {
+  transition: color 0.5s;
+  font-size: 0.8rem;
+}
+#header .menu li a:hover {
+  color: #f6214b !important;
+}
+#header .menu .dropdown:hover ul {
+  display: block !important;
+}
+
+@media only screen and (max-width: 992px) {
+  #header p {
+    display: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #header .top .contact {
+    display: none !important;
+  }
+}
+@media only screen and (max-width: 576px) {
+  #header ul {
+    gap: 0 !important;
+  }
+  #header ul li {
+    padding: 0 0.2rem !important;
+  }
+  #header ul li a {
+    font-size: 0.6rem !important;
+  }
+}
+@media only screen and (max-width: 320px) {
+  #header ul li a {
+    font-size: 0.5rem !important;
+  }
+  #header .dropdown ul {
+    right: 0.1rem;
+  }
+}/*# sourceMappingURL=main.css.map */

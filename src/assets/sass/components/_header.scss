@@ -1,0 +1,24 @@
+// Header
+#header {
+  left: 0;
+  z-index: 10 !important;
+  .top {
+    i {
+      background-color: $color_first;
+    }
+  }
+  .menu {
+    li {
+      a {
+        transition: color 0.5s;
+        font-size: 0.8rem;
+        &:hover {
+          color: $color_first !important;
+        }
+      }
+    }
+    .dropdown:hover ul {
+      display: block !important;
+    }
+  }
+}
