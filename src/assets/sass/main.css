@@ -67,6 +67,9 @@ html {
   #main #index h2 {
     font-size: 1rem !important;
   }
+  #main #course h2 {
+    font-size: 1rem !important;
+  }
 }
 @media only screen and (max-width: 320px) {
   #header ul li a {
@@ -84,6 +87,9 @@ html {
   }
   #main #index {
     padding: 2rem 0 !important;
+  }
+  #main #course h2 {
+    font-size: 0.9rem !important;
   }
 }
 main #home {
@@ -165,4 +171,26 @@ main #index input[type=button] {
 main #index input[type=button]:hover {
   background-color: transparent !important;
   color: #fff;
+}
+main #course h2 {
+  font-size: 2rem;
+}
+main #course .wrapper {
+  cursor: pointer;
+}
+main #course .wrapper .img img {
+  transition: transform 0.5s, filter 0.7s;
+  filter: blur(0.2rem);
+}
+main #course .wrapper .img h6 {
+  bottom: 0;
+  left: 0.7rem;
+  background-color: #f6214b;
+}
+main #course .wrapper:hover img {
+  transform: scale(1.3);
+  filter: unset;
+}
+main #course .wrapper h6:nth-child(2) {
+  color: #f6214b;
 }/*# sourceMappingURL=main.css.map */

@@ -72,6 +72,11 @@
         font-size: 1rem !important;
       }
     }
+    #course {
+      h2 {
+        font-size: 1rem !important;
+      }
+    }
   }
 }
 
@@ -99,8 +104,13 @@
         font-size: 0.9rem !important;
       }
     }
-    #index{
+    #index {
       padding: 2rem 0 !important;
+    }
+    #course {
+      h2 {
+        font-size: 0.9rem !important;
+      }
     }
   }
 }
