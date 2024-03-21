@@ -52,6 +52,15 @@ html {
   #main #home h2 {
     font-size: 1rem !important;
   }
+  #main #offer {
+    padding: 6rem 0;
+  }
+  #main #offer h2 {
+    font-size: 1rem !important;
+  }
+  #main #offer h5 {
+    font-size: 1rem !important;
+  }
 }
 @media only screen and (max-width: 320px) {
   #header ul li a {
@@ -98,4 +107,35 @@ main #home .content {
 }
 main #home .content h2 {
   font-size: 2rem;
+}
+main #offer {
+  padding: 10rem 0;
+}
+main #offer h2 {
+  transition: color 0.5s;
+  font-size: 2rem;
+}
+main #offer h2:hover {
+  color: #f6214b;
+}
+main #offer .wrapper {
+  cursor: pointer;
+  transition: all 0.8s;
+}
+main #offer .wrapper img {
+  transition: transform 0.5s;
+}
+main #offer .wrapper:hover {
+  box-shadow: 0px 0px 70px 2px #fdd7df;
+  transform: rotateY(180deg);
+}
+main #offer .wrapper:hover img {
+  transform: rotateY(180deg);
+}
+main #offer .wrapper:hover img {
+  transform: scale(1.2), rotateY(180deg);
+}
+main #offer .wrapper:hover h5,
+main #offer .wrapper:hover p {
+  transform: rotateY(180deg);
 }/*# sourceMappingURL=main.css.map */
