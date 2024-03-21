@@ -40,6 +40,7 @@ main {
       }
     }
   }
+  // Offer
   #offer {
     padding: 10rem 0;
     h2 {
@@ -68,6 +69,25 @@ main {
         p {
           transform: rotateY(180deg);
         }
+      }
+    }
+  }
+  // Index
+  #index {
+    background-color: $color_first;
+    padding: 7rem 0;
+    h2 {
+      font-size: 2rem;
+    }
+    input {
+      background-color: $color_first;
+    }
+    input[type="button"] {
+      transition: background-color 0.5s;
+      border-radius: 2rem !important;
+      &:hover {
+        background-color: transparent !important;
+        color: #fff;
       }
     }
   }

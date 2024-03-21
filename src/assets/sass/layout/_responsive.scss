@@ -30,6 +30,11 @@
         font-size: 1.5rem !important;
       }
     }
+    #index {
+      input {
+        margin-bottom: 1rem;
+      }
+    }
   }
 }
 
@@ -62,6 +67,11 @@
         font-size: 1rem !important;
       }
     }
+    #index {
+      h2 {
+        font-size: 1rem !important;
+      }
+    }
   }
 }
 
@@ -88,6 +98,9 @@
       h6 {
         font-size: 0.9rem !important;
       }
+    }
+    #index{
+      padding: 2rem 0 !important;
     }
   }
 }
