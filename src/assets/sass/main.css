@@ -29,6 +29,12 @@ html {
   #header .top .contact {
     display: none !important;
   }
+  #main #home {
+    height: 30rem;
+  }
+  #main #home h2 {
+    font-size: 1.5rem !important;
+  }
 }
 @media only screen and (max-width: 576px) {
   #header ul {
@@ -40,6 +46,12 @@ html {
   #header ul li a {
     font-size: 0.6rem !important;
   }
+  #main #home {
+    height: 20rem;
+  }
+  #main #home h2 {
+    font-size: 1rem !important;
+  }
 }
 @media only screen and (max-width: 320px) {
   #header ul li a {
@@ -48,4 +60,42 @@ html {
   #header .dropdown ul {
     right: 0.1rem;
   }
+  #main #home {
+    height: 20rem;
+  }
+  #main #home h2,
+  #main #home h6 {
+    font-size: 0.9rem !important;
+  }
+}
+main #home {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main #home::after {
+  content: "";
+  position: absolute;
+  background-color: #000;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.6;
+  z-index: -1;
+}
+
+main #home {
+  background-image: url(../images/header-bg.jpg.webp);
+  margin-top: 10rem;
+  height: 50rem;
+}
+main #home .content {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+main #home .content h2 {
+  font-size: 2rem;
 }/*# sourceMappingURL=main.css.map */

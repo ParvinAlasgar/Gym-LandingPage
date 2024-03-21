@@ -23,6 +23,14 @@
       }
     }
   }
+  #main {
+    #home {
+      height: 30rem;
+      h2 {
+        font-size: 1.5rem !important;
+      }
+    }
+  }
 }
 
 // Small devices  (tablets, 576px and down)
@@ -35,6 +43,14 @@
         a {
           font-size: 0.6rem !important;
         }
+      }
+    }
+  }
+  #main {
+    #home {
+      height: 20rem;
+      h2 {
+        font-size: 1rem !important;
       }
     }
   }
@@ -53,6 +69,15 @@
     .dropdown {
       ul {
         right: 0.1rem;
+      }
+    }
+  }
+  #main {
+    #home {
+      height: 20rem;
+      h2,
+      h6 {
+        font-size: 0.9rem !important;
       }
     }
   }
