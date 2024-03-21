@@ -132,4 +132,23 @@ main {
       }
     }
   }
+  // Schedule
+  #schedule {
+    table {
+      tr {
+        cursor: pointer;
+        transition: background-color 0.6s;
+        td {
+          transition: transform 0.6s;
+        }
+        &:hover {
+          background-color: $color_first !important;
+          td {
+            color: #fff !important;
+            transform: scale(1.3);
+          }
+        }
+      }
+    }
+  }
 }

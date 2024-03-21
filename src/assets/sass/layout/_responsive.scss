@@ -77,6 +77,17 @@
         font-size: 1rem !important;
       }
     }
+    #schedule {
+      table {
+        tr {
+          td,
+          th {
+            padding: 1rem 0 !important;
+            transform: scale(1) !important;
+          }
+        }
+      }
+    }
   }
 }
 
