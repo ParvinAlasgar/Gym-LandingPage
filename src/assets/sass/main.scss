@@ -203,4 +203,15 @@ main {
       }
     }
   }
+  // Logos
+  #logos {
+    img {
+      cursor: pointer;
+      filter: grayscale(1);
+      transition: filter 0.5s;
+      &:hover {
+        filter: grayscale(0);
+      }
+    }
+  }
 }

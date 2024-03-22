@@ -266,4 +266,12 @@ main #plan .wrapper:hover p {
 main #plan .wrapper:hover li,
 main #plan .wrapper:hover p {
   color: #fff !important;
+}
+main #logos img {
+  cursor: pointer;
+  filter: grayscale(1);
+  transition: filter 0.5s;
+}
+main #logos img:hover {
+  filter: grayscale(0);
 }/*# sourceMappingURL=main.css.map */
