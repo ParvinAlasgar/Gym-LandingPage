@@ -65,4 +65,19 @@ main {
   #table {
     background-color: #f9f9ff;
   }
+  #gallery {
+    background-color: #f9f9ff;
+    .img {
+      cursor: pointer;
+      overflow: hidden;
+      margin-top: 1.5rem;
+      img {
+        height: 12rem;
+        transition: transform 0.5s;
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
 }

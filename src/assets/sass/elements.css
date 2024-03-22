@@ -132,4 +132,19 @@ main #quotes p {
 }
 main #table {
   background-color: #f9f9ff;
+}
+main #gallery {
+  background-color: #f9f9ff;
+}
+main #gallery .img {
+  cursor: pointer;
+  overflow: hidden;
+  margin-top: 1.5rem;
+}
+main #gallery .img img {
+  height: 12rem;
+  transition: transform 0.5s;
+}
+main #gallery .img img:hover {
+  transform: scale(1.1);
 }/*# sourceMappingURL=elements.css.map */
