@@ -1,0 +1,15 @@
+@import "./base/base";
+@import "./base/variables";
+@import "./components/header";
+@import "./components/footer";
+@import "./layout//responsive_elements";
+
+// Main
+main {
+  // Home
+  #home {
+    background-color: $color_first;
+    margin-top: 10rem;
+    padding: 10rem 0;
+  }
+}
