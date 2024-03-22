@@ -98,4 +98,23 @@ main #home {
   background-color: #f6214b;
   margin-top: 10rem;
   padding: 10rem 0;
+}
+main #buttons .group-button:nth-child(3) a:nth-child(2):hover {
+  color: #fff !important;
+  background-color: #bb2d3b !important;
+}
+main #buttons .group-button:nth-child(3) a:nth-child(3):hover {
+  color: #fff !important;
+  background-color: #31d2f2 !important;
+}
+main #buttons .group-button:nth-child(3) a:nth-child(4):hover {
+  color: #fff !important;
+  background-color: #0d6efd !important;
+}
+main #buttons .group-button:nth-child(3) a:nth-child(5):hover {
+  color: #fff !important;
+  background-color: #ffca2c !important;
+}
+main #buttons .group-button:nth-child(4) a {
+  border-radius: 2rem !important;
 }/*# sourceMappingURL=elements.css.map */
