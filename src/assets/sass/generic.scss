@@ -44,4 +44,13 @@ main {
       }
     }
   }
+  // About
+  #about {
+    p {
+      transition: color 0.5s;
+      &:hover {
+        color: $color_first !important;
+      }
+    }
+  }
 }

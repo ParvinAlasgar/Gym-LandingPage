@@ -170,4 +170,10 @@ main #offer .wrapper:hover img {
 main #offer .wrapper:hover h5,
 main #offer .wrapper:hover p {
   transform: rotateY(180deg);
+}
+main #about p {
+  transition: color 0.5s;
+}
+main #about p:hover {
+  color: #f6214b !important;
 }/*# sourceMappingURL=generic.css.map */
