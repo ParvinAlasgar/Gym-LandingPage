@@ -129,4 +129,7 @@ main #quotes {
 }
 main #quotes p {
   border-left: 0.3rem solid #f6214b;
+}
+main #table {
+  background-color: #f9f9ff;
 }/*# sourceMappingURL=elements.css.map */
