@@ -151,6 +151,7 @@ main {
       }
     }
   }
+  // Trainer
   #trainer {
     h2 {
       font-size: 2rem;
@@ -175,6 +176,29 @@ main {
         }
         img {
           border-radius: 2rem;
+        }
+      }
+    }
+  }
+  // Plan
+  #plan {
+    .wrapper {
+      border-top-left-radius: 2rem;
+      border-top-right-radius: 2rem;
+      cursor: pointer;
+      p,
+      ul,
+      li {
+        transition: background-color 0.7s, color 0.7s;
+      }
+      &:hover {
+        ul,
+        p {
+          background-color: $color_first;
+        }
+        li,
+        p {
+          color: #fff !important;
         }
       }
     }

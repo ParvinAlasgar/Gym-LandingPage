@@ -248,4 +248,22 @@ main #trainer .wrapper:hover .icons {
 }
 main #trainer .wrapper:hover img {
   border-radius: 2rem;
+}
+main #plan .wrapper {
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  cursor: pointer;
+}
+main #plan .wrapper p,
+main #plan .wrapper ul,
+main #plan .wrapper li {
+  transition: background-color 0.7s, color 0.7s;
+}
+main #plan .wrapper:hover ul,
+main #plan .wrapper:hover p {
+  background-color: #f6214b;
+}
+main #plan .wrapper:hover li,
+main #plan .wrapper:hover p {
+  color: #fff !important;
 }/*# sourceMappingURL=main.css.map */
