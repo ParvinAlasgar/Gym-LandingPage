@@ -86,4 +86,10 @@ main {
       color: $color_first;
     }
   }
+  #elements {
+    background-color: #f9f9ff;
+    input {
+      outline: none;
+    }
+  }
 }

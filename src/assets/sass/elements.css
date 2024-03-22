@@ -153,4 +153,10 @@ main #other {
 }
 main #other li::marker {
   color: #f6214b;
+}
+main #elements {
+  background-color: #f9f9ff;
+}
+main #elements input {
+  outline: none;
 }/*# sourceMappingURL=elements.css.map */
