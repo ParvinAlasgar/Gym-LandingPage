@@ -214,4 +214,15 @@ main {
       }
     }
   }
+  // Member
+  #member {
+    background-image: url(../images/callto-bg.jpg.webp);
+    @extend %background;
+    h2 {
+      font-size: 2rem;
+    }
+    a {
+      border-radius: 2rem;
+    }
+  }
 }

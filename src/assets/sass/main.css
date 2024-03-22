@@ -78,6 +78,9 @@ html {
   #main #trainer h2 {
     font-size: 1rem !important;
   }
+  #main #trainer h2 {
+    font-size: 1rem !important;
+  }
 }
 @media only screen and (max-width: 320px) {
   #header ul li a {
@@ -99,8 +102,11 @@ html {
   #main #course h2 {
     font-size: 0.9rem !important;
   }
+  #main #member h2 {
+    font-size: 0.9rem !important;
+  }
 }
-main #home {
+main #member, main #home {
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -274,4 +280,13 @@ main #logos img {
 }
 main #logos img:hover {
   filter: grayscale(0);
+}
+main #member {
+  background-image: url(../images/callto-bg.jpg.webp);
+}
+main #member h2 {
+  font-size: 2rem;
+}
+main #member a {
+  border-radius: 2rem;
 }/*# sourceMappingURL=main.css.map */
