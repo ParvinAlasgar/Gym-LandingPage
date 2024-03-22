@@ -147,4 +147,10 @@ main #gallery .img img {
 }
 main #gallery .img img:hover {
   transform: scale(1.1);
+}
+main #other {
+  background-color: #f9f9ff;
+}
+main #other li::marker {
+  color: #f6214b;
 }/*# sourceMappingURL=elements.css.map */

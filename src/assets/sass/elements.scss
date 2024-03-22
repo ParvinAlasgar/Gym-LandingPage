@@ -80,4 +80,10 @@ main {
       }
     }
   }
+  #other {
+    background-color: #f9f9ff;
+    li::marker {
+      color: $color_first;
+    }
+  }
 }
