@@ -75,6 +75,9 @@ html {
     padding: 1rem 0 !important;
     transform: scale(1) !important;
   }
+  #main #trainer h2 {
+    font-size: 1rem !important;
+  }
 }
 @media only screen and (max-width: 320px) {
   #header ul li a {
@@ -221,4 +224,28 @@ main #schedule table tr:hover {
 main #schedule table tr:hover td {
   color: #fff !important;
   transform: scale(1.3);
+}
+main #trainer h2 {
+  font-size: 2rem;
+}
+main #trainer .wrapper {
+  cursor: pointer;
+}
+main #trainer .wrapper img {
+  transition: border-radius 0.5s;
+}
+main #trainer .wrapper .icons {
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #f6214b;
+  opacity: 0;
+  transition: opacity 0.5s, border-radius 0.5s;
+}
+main #trainer .wrapper:hover .icons {
+  opacity: 0.7;
+  border-radius: 2rem;
+}
+main #trainer .wrapper:hover img {
+  border-radius: 2rem;
 }/*# sourceMappingURL=main.css.map */

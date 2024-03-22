@@ -151,4 +151,32 @@ main {
       }
     }
   }
+  #trainer {
+    h2 {
+      font-size: 2rem;
+    }
+    .wrapper {
+      cursor: pointer;
+      img {
+        transition: border-radius 0.5s;
+      }
+      .icons {
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: $color_first;
+        opacity: 0;
+        transition: opacity 0.5s, border-radius 0.5s;
+      }
+      &:hover {
+        .icons {
+          opacity: 0.7;
+          border-radius: 2rem;
+        }
+        img {
+          border-radius: 2rem;
+        }
+      }
+    }
+  }
 }
