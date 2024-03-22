@@ -20,6 +20,17 @@ html {
   display: block !important;
 }
 
+#footer h4 {
+  color: #f6214b;
+}
+#footer i {
+  transition: background-color 0.5s;
+  cursor: pointer;
+}
+#footer i:hover {
+  background-color: #f6214b !important;
+}
+
 @media only screen and (max-width: 992px) {
   #header p {
     display: none;
@@ -80,6 +91,9 @@ html {
   }
   #main #trainer h2 {
     font-size: 1rem !important;
+  }
+  #footer ul {
+    justify-content: center !important;
   }
 }
 @media only screen and (max-width: 320px) {

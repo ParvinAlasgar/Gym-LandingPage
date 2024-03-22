@@ -1,0 +1,13 @@
+// Footer
+#footer {
+  h4 {
+    color: $color_first;
+  }
+  i {
+    transition: background-color 0.5s;
+    cursor: pointer;
+    &:hover {
+      background-color: $color_first !important;
+    }
+  }
+}
