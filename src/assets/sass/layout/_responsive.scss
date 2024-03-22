@@ -87,6 +87,19 @@
           }
         }
       }
+      h2 {
+        font-size: 1rem !important;
+      }
+    }
+    #plan {
+      h2 {
+        font-size: 1rem !important;
+      }
+    }
+    #member {
+      h2 {
+        font-size: 1rem !important;
+      }
     }
     #trainer {
       h2 {
@@ -139,9 +152,15 @@
       }
     }
     #member {
+      p {
+        font-size: 0.9rem;
+      }
       h2 {
         font-size: 0.9rem !important;
       }
     }
+  }
+  #footer {
+    text-align: center !important;
   }
 }

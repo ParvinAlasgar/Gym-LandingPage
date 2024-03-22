@@ -224,5 +224,6 @@ main {
     a {
       border-radius: 2rem;
     }
+    @extend %after_div;
   }
 }

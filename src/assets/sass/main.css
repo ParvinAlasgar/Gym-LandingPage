@@ -86,6 +86,15 @@ html {
     padding: 1rem 0 !important;
     transform: scale(1) !important;
   }
+  #main #schedule h2 {
+    font-size: 1rem !important;
+  }
+  #main #plan h2 {
+    font-size: 1rem !important;
+  }
+  #main #member h2 {
+    font-size: 1rem !important;
+  }
   #main #trainer h2 {
     font-size: 1rem !important;
   }
@@ -116,8 +125,14 @@ html {
   #main #course h2 {
     font-size: 0.9rem !important;
   }
+  #main #member p {
+    font-size: 0.9rem;
+  }
   #main #member h2 {
     font-size: 0.9rem !important;
+  }
+  #footer {
+    text-align: center !important;
   }
 }
 main #member, main #home {
@@ -125,7 +140,7 @@ main #member, main #home {
   background-size: cover;
 }
 
-main #home::after {
+main #member::after, main #home::after {
   content: "";
   position: absolute;
   background-color: #000;
