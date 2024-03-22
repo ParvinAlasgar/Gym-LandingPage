@@ -56,4 +56,10 @@ main {
   #definition {
     background-color: #f9f9ff;
   }
+  #quotes {
+    background-color: #f9f9ff;
+    p {
+      border-left: 0.3rem solid $color_first;
+    }
+  }
 }

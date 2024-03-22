@@ -123,4 +123,10 @@ main #aligned {
 }
 main #definition {
   background-color: #f9f9ff;
+}
+main #quotes {
+  background-color: #f9f9ff;
+}
+main #quotes p {
+  border-left: 0.3rem solid #f6214b;
 }/*# sourceMappingURL=elements.css.map */
