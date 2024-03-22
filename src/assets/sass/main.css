@@ -46,8 +46,14 @@ html {
   #main #home h2 {
     font-size: 1.5rem !important;
   }
+  #main #index input {
+    margin-bottom: 1rem;
+  }
 }
 @media only screen and (max-width: 576px) {
+  h2 {
+    font-size: 1rem !important;
+  }
   #header ul {
     gap: 0 !important;
   }
@@ -60,23 +66,27 @@ html {
   #main #home {
     height: 20rem;
   }
-  #main #home h2 {
-    font-size: 1rem !important;
-  }
   #main #offer {
     padding: 6rem 0;
   }
-  #main #offer h2 {
-    font-size: 1rem !important;
-  }
   #main #offer h5 {
     font-size: 1rem !important;
+  }
+  #main #schedule table tr td,
+  #main #schedule table tr th {
+    padding: 1rem 0 !important;
+    transform: scale(1) !important;
   }
   #footer ul {
     justify-content: center !important;
   }
 }
 @media only screen and (max-width: 320px) {
+  h2,
+  p,
+  h6 {
+    font-size: 0.9rem !important;
+  }
   #header ul li a {
     font-size: 0.5rem !important;
   }
@@ -86,9 +96,8 @@ html {
   #main #home {
     height: 20rem;
   }
-  #main #home h2,
-  #main #home h6 {
-    font-size: 0.9rem !important;
+  #main #index {
+    padding: 2rem 0 !important;
   }
   #footer {
     text-align: center !important;
@@ -219,6 +228,9 @@ main #schedule table tr:hover td {
   color: #fff !important;
   transform: scale(1.3);
 }
+main #trainer {
+  background-color: #f9f9ff;
+}
 main #trainer h2 {
   font-size: 2rem;
 }
@@ -244,6 +256,7 @@ main #trainer .wrapper:hover img {
   border-radius: 2rem;
 }
 main #plan .wrapper {
+  background-color: #f9f9ff;
   border-top-left-radius: 2rem;
   border-top-right-radius: 2rem;
   cursor: pointer;
@@ -271,10 +284,16 @@ main #logos img:hover {
 }
 main #member {
   background-image: url(../images/callto-bg.jpg.webp);
+  height: 25rem;
 }
-main #member h2 {
+main #member .content {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+main #member .content h2 {
   font-size: 2rem;
 }
-main #member a {
+main #member .content a {
   border-radius: 2rem;
 }/*# sourceMappingURL=main.css.map */

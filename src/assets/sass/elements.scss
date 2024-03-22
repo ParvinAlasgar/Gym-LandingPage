@@ -50,23 +50,15 @@ main {
       }
     }
   }
-  #aligned {
-    background-color: #f9f9ff;
-  }
-  #definition {
-    background-color: #f9f9ff;
-  }
+
+  // Quotes
   #quotes {
-    background-color: #f9f9ff;
     p {
       border-left: 0.3rem solid $color_first;
     }
   }
-  #table {
-    background-color: #f9f9ff;
-  }
+  // Gallery
   #gallery {
-    background-color: #f9f9ff;
     .img {
       cursor: pointer;
       overflow: hidden;
@@ -80,16 +72,25 @@ main {
       }
     }
   }
+  // Other
   #other {
-    background-color: #f9f9ff;
     li::marker {
       color: $color_first;
     }
   }
+  // Elements
   #elements {
-    background-color: #f9f9ff;
     input {
       outline: none;
     }
+  }
+  #aligned,
+  #definition,
+  #quotes,
+  #table,
+  #gallery,
+  #other,
+  #elements {
+    background-color: $color_third;
   }
 }

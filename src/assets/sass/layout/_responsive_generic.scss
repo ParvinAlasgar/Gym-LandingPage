@@ -35,6 +35,10 @@
 
 // Small devices  (tablets, 576px and down)
 @media only screen and (max-width: 576px) {
+  h2,
+  h5 {
+    font-size: 1rem !important;
+  }
   #header {
     ul {
       gap: 0 !important;
@@ -49,18 +53,9 @@
   #main {
     #home {
       height: 20rem;
-      h2 {
-        font-size: 1rem !important;
-      }
     }
     #offer {
       padding: 6rem 0;
-      h2 {
-        font-size: 1rem !important;
-      }
-      h5 {
-        font-size: 1rem !important;
-      }
     }
   }
   #footer {

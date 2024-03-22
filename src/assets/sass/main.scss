@@ -2,7 +2,7 @@
 @import "./base/variables";
 @import "./components/header";
 @import "./components/footer";
-@import "./layout/responsive_generic";
+@import "./layout/responsive";
 
 %background {
   background-repeat: no-repeat;
@@ -153,6 +153,7 @@ main {
   }
   // Trainer
   #trainer {
+    background-color: $color_third;
     h2 {
       font-size: 2rem;
     }
@@ -183,6 +184,7 @@ main {
   // Plan
   #plan {
     .wrapper {
+      background-color: $color_third;
       border-top-left-radius: 2rem;
       border-top-right-radius: 2rem;
       cursor: pointer;
@@ -217,12 +219,18 @@ main {
   // Member
   #member {
     background-image: url(../images/callto-bg.jpg.webp);
+    height: 25rem;
     @extend %background;
-    h2 {
-      font-size: 2rem;
-    }
-    a {
-      border-radius: 2rem;
+    .content {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      h2 {
+        font-size: 2rem;
+      }
+      a {
+        border-radius: 2rem;
+      }
     }
     @extend %after_div;
   }

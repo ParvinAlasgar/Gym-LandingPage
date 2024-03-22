@@ -48,6 +48,10 @@ html {
   }
 }
 @media only screen and (max-width: 576px) {
+  h2,
+  h5 {
+    font-size: 1rem !important;
+  }
   #header ul {
     gap: 0 !important;
   }
@@ -60,17 +64,8 @@ html {
   #main #home {
     height: 20rem;
   }
-  #main #home h2 {
-    font-size: 1rem !important;
-  }
   #main #offer {
     padding: 6rem 0;
-  }
-  #main #offer h2 {
-    font-size: 1rem !important;
-  }
-  #main #offer h5 {
-    font-size: 1rem !important;
   }
   #footer ul {
     justify-content: center !important;
@@ -118,23 +113,8 @@ main #buttons .group-button:nth-child(3) a:nth-child(5):hover {
 main #buttons .group-button:nth-child(4) a {
   border-radius: 2rem !important;
 }
-main #aligned {
-  background-color: #f9f9ff;
-}
-main #definition {
-  background-color: #f9f9ff;
-}
-main #quotes {
-  background-color: #f9f9ff;
-}
 main #quotes p {
   border-left: 0.3rem solid #f6214b;
-}
-main #table {
-  background-color: #f9f9ff;
-}
-main #gallery {
-  background-color: #f9f9ff;
 }
 main #gallery .img {
   cursor: pointer;
@@ -148,15 +128,18 @@ main #gallery .img img {
 main #gallery .img img:hover {
   transform: scale(1.1);
 }
-main #other {
-  background-color: #f9f9ff;
-}
 main #other li::marker {
   color: #f6214b;
 }
-main #elements {
-  background-color: #f9f9ff;
-}
 main #elements input {
   outline: none;
+}
+main #aligned,
+main #definition,
+main #quotes,
+main #table,
+main #gallery,
+main #other,
+main #elements {
+  background-color: #f9f9ff;
 }/*# sourceMappingURL=elements.css.map */

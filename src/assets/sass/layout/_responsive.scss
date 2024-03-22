@@ -40,6 +40,9 @@
 
 // Small devices  (tablets, 576px and down)
 @media only screen and (max-width: 576px) {
+  h2 {
+    font-size: 1rem !important;
+  }
   #header {
     ul {
       gap: 0 !important;
@@ -54,26 +57,10 @@
   #main {
     #home {
       height: 20rem;
-      h2 {
-        font-size: 1rem !important;
-      }
     }
     #offer {
       padding: 6rem 0;
-      h2 {
-        font-size: 1rem !important;
-      }
       h5 {
-        font-size: 1rem !important;
-      }
-    }
-    #index {
-      h2 {
-        font-size: 1rem !important;
-      }
-    }
-    #course {
-      h2 {
         font-size: 1rem !important;
       }
     }
@@ -87,29 +74,6 @@
           }
         }
       }
-      h2 {
-        font-size: 1rem !important;
-      }
-    }
-    #plan {
-      h2 {
-        font-size: 1rem !important;
-      }
-    }
-    #member {
-      h2 {
-        font-size: 1rem !important;
-      }
-    }
-    #trainer {
-      h2 {
-        font-size: 1rem !important;
-      }
-    }
-    #trainer {
-      h2 {
-        font-size: 1rem !important;
-      }
     }
   }
   #footer {
@@ -121,6 +85,11 @@
 
 // Extra Small devices (tablets, 320px and down)
 @media only screen and (max-width: 320px) {
+  h2,
+  p,
+  h6 {
+    font-size: 0.9rem !important;
+  }
   #header {
     ul {
       li {
@@ -138,26 +107,9 @@
   #main {
     #home {
       height: 20rem;
-      h2,
-      h6 {
-        font-size: 0.9rem !important;
-      }
     }
     #index {
       padding: 2rem 0 !important;
-    }
-    #course {
-      h2 {
-        font-size: 0.9rem !important;
-      }
-    }
-    #member {
-      p {
-        font-size: 0.9rem;
-      }
-      h2 {
-        font-size: 0.9rem !important;
-      }
     }
   }
   #footer {
