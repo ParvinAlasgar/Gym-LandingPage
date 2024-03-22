@@ -1,0 +1,173 @@
+html {
+  font-size: 1rem !important;
+}
+
+#header {
+  left: 0;
+  z-index: 10 !important;
+}
+#header .top i {
+  background-color: #f6214b;
+}
+#header .menu li a {
+  transition: color 0.5s;
+  font-size: 0.8rem;
+}
+#header .menu li a:hover {
+  color: #f6214b !important;
+}
+#header .menu .dropdown:hover ul {
+  display: block !important;
+}
+
+#footer h4 {
+  color: #f6214b;
+}
+#footer i {
+  transition: background-color 0.5s;
+  cursor: pointer;
+}
+#footer i:hover {
+  background-color: #f6214b !important;
+}
+
+@media only screen and (max-width: 992px) {
+  #header p {
+    display: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #header .top .contact {
+    display: none !important;
+  }
+  #main #home {
+    height: 30rem;
+  }
+  #main #home h2 {
+    font-size: 1.5rem !important;
+  }
+  #main #index input {
+    margin-bottom: 1rem;
+  }
+}
+@media only screen and (max-width: 576px) {
+  #header ul {
+    gap: 0 !important;
+  }
+  #header ul li {
+    padding: 0 0.2rem !important;
+  }
+  #header ul li a {
+    font-size: 0.6rem !important;
+  }
+  #main #home {
+    height: 20rem;
+  }
+  #main #home h2 {
+    font-size: 1rem !important;
+  }
+  #main #offer {
+    padding: 6rem 0;
+  }
+  #main #offer h2 {
+    font-size: 1rem !important;
+  }
+  #main #offer h5 {
+    font-size: 1rem !important;
+  }
+  #main #index h2 {
+    font-size: 1rem !important;
+  }
+  #main #course h2 {
+    font-size: 1rem !important;
+  }
+  #main #schedule table tr td,
+  #main #schedule table tr th {
+    padding: 1rem 0 !important;
+    transform: scale(1) !important;
+  }
+  #main #schedule h2 {
+    font-size: 1rem !important;
+  }
+  #main #plan h2 {
+    font-size: 1rem !important;
+  }
+  #main #member h2 {
+    font-size: 1rem !important;
+  }
+  #main #trainer h2 {
+    font-size: 1rem !important;
+  }
+  #main #trainer h2 {
+    font-size: 1rem !important;
+  }
+  #footer ul {
+    justify-content: center !important;
+  }
+}
+@media only screen and (max-width: 320px) {
+  #header ul li a {
+    font-size: 0.5rem !important;
+  }
+  #header .dropdown ul {
+    right: 0.1rem;
+  }
+  #main #home {
+    height: 20rem;
+  }
+  #main #home h2,
+  #main #home h6 {
+    font-size: 0.9rem !important;
+  }
+  #main #index {
+    padding: 2rem 0 !important;
+  }
+  #main #course h2 {
+    font-size: 0.9rem !important;
+  }
+  #main #member p {
+    font-size: 0.9rem;
+  }
+  #main #member h2 {
+    font-size: 0.9rem !important;
+  }
+  #footer {
+    text-align: center !important;
+  }
+}
+main #home {
+  background-color: #f6214b;
+  margin-top: 10rem;
+  padding: 10rem 0;
+}
+main #offer {
+  padding: 10rem 0;
+}
+main #offer h2 {
+  transition: color 0.5s;
+  font-size: 2rem;
+}
+main #offer h2:hover {
+  color: #f6214b;
+}
+main #offer .wrapper {
+  cursor: pointer;
+  transition: all 0.8s;
+}
+main #offer .wrapper img {
+  transition: transform 0.5s;
+}
+main #offer .wrapper:hover {
+  box-shadow: 0px 0px 70px 2px #fdd7df;
+  transform: rotateY(180deg);
+}
+main #offer .wrapper:hover img {
+  transform: rotateY(180deg);
+}
+main #offer .wrapper:hover img {
+  transform: scale(1.2), rotateY(180deg);
+}
+main #offer .wrapper:hover h5,
+main #offer .wrapper:hover p {
+  transform: rotateY(180deg);
+}/*# sourceMappingURL=generic.css.map */

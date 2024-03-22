@@ -1,0 +1,47 @@
+@import "./base/base";
+@import "./base/variables";
+@import "./components/header";
+@import "./components/footer";
+@import "./layout/responsive";
+
+// Main
+main {
+  // Home
+  #home {
+    background-color: $color_first;
+    margin-top: 10rem;
+    padding: 10rem 0;
+  }
+  // Offer
+  #offer {
+    padding: 10rem 0;
+    h2 {
+      transition: color 0.5s;
+      font-size: 2rem;
+      &:hover {
+        color: $color_first;
+      }
+    }
+    .wrapper {
+      cursor: pointer;
+      transition: all 0.8s;
+      img {
+        transition: transform 0.5s;
+      }
+      &:hover {
+        box-shadow: 0px 0px 70px 2px $color_second;
+        transform: rotateY(180deg);
+        img {
+          transform: rotateY(180deg);
+        }
+        img {
+          transform: scale(1.2), rotateY(180deg);
+        }
+        h5,
+        p {
+          transform: rotateY(180deg);
+        }
+      }
+    }
+  }
+}
